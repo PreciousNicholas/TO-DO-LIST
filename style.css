@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: black;
+    color: #fff;
+}
+
+header{
+    padding: 2rem 1rem;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header>h1{
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: blueviolet;
+    margin-bottom: 1rem;
+}
+
+#new-task-form{
+    display: flex;
+}
+
+
+#new-task-input{
+    flex: 1 1 0%;
+    background-color:brown;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    color: #fff;
+    font-size: 1.25rem;
+}
+
+#new-task-submit{
+    color: red;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+main{
+    flex: 1 1 0%;
+    padding: 2rem 1rem;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.task-list{
+    padding: 1rem;
+}
+
+.task-list>h2{
+    font-size: 1.5ren;
+    font-weight:300 ;
+    color:#fff ;
+    margin-bottom: 1rem;
+}
+
+#task .task{
+    display:flex ;
+    justify-content: space-between;
+    background-color:white; 
+    padding:1rem ;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+#task .task .content .text{
+    color: black;
+    font-size: 1.225rem;
+    width: 100%;
+    display: flex;
+    transition: 0.4s;
+    background-color:white;
+}
+
+.task .actions .button {
+    color: brown;
+    margin: 0.5rem;
+    font-size: 200rem;
+    font-weight: 700;
+    transition: 0.4s;
+    
+}
+
+
+
+
